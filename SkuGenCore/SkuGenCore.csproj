@@ -10,10 +10,13 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.0.3" />
     <PackageReference Include="MySql.Data" Version="8.0.9-dmr" />
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.9-dmr" />
     <PackageReference Include="MySql.Data.EntityFrameworkCore.Design" Version="8.0.9-dmr" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.1-preview1-final" />
+    <PackageReference Include="protobuf-net" Version="2.3.2" />
+    <PackageReference Include="ShellProgressBar" Version="4.0.0" />
     <PackageReference Include="WhiteHingeFrameworkExt" Version="1.1.2.6-alpha" />
   </ItemGroup>
   <ItemGroup>

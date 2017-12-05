@@ -71,7 +71,7 @@ namespace WebApiCore.MySqlModels
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("Database=whldata;Data Source=sql.ad.whitehinge.com;User Id=appuser;Password=apppassword;ConnectionTimeout=4;SslMode=none");
+                optionsBuilder.UseMySql("Database=whldata;Data Source=testserver.ad.whitehinge.com;User Id=appuser;Password=apppassword;ConnectionTimeout=4;SslMode=none"); //Todo TestServer Update
             }
         }
 

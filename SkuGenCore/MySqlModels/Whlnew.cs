@@ -82,8 +82,14 @@ namespace WebApiCore.MySqlModels
         public string Withscrews { get; set; }
         public string Oldprice { get; set; }
         public string Soldavgprice { get; set; }
+        /// <summary>
+        /// Category
+        /// </summary>
         public string Ext33 { get; set; }
         public string Packedbarcodes { get; set; }
+        /// <summary>
+        /// Distinguish
+        /// </summary>
         public string Ext35 { get; set; }
         public string Shortsku { get; set; }
         public string Ext37 { get; set; }
