@@ -102,7 +102,7 @@ namespace SkuGenCore
 
                             resultSkus.Add(result);
                             //Console.WriteLine($"{resultSkus.Count} complete of {skus.Count}");
-                            TickToCompletion(progress, totalTicks, 1);
+                            progress.Tick();
                             var currentThreadId = Thread.CurrentThread.ManagedThreadId;
                         }
                         catch (Exception e)
